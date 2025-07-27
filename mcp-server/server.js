@@ -7,7 +7,7 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 3010;
-const SERPAPI_KEY = "41b40ac502518b36c7ddda3c323e3ccbcc30202a387da7c3654ce9d05e782505";
+const SERPAPI_KEY = process.env.serpapi_key
 
 app.use(cors());
 app.use(express.json());
