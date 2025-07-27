@@ -36,4 +36,4 @@ This is a monorepo structure where each component can be developed and deployed 
 
 ## License
 
-[Add your license information here] 
+[Add your license information here]
